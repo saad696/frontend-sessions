@@ -1,0 +1,26 @@
+Here is a task for you
+
+1) create an index.html file
+2) set up the boilerplate code
+3) create a survey form with the follwing fields in the center of page
+    - name
+    - email
+    - password
+    - age
+    - gender
+    - address
+    - student (checkbox - should be checked)
+    - select options for most favourite programming language (with javascript selected)
+      - java
+      - javascript
+      - python
+      - c#
+    - submit button
+    - two anchor tags with dummy email and phone number when click should do the respective task
+4) create a table with your 5 most favourite programming language with two rows,
+    - first row will consist an image logo of programming language (adujust its height and width if too big)
+    - second row will consist of the name of programming language and when click on the name it should open the programming language website in new tab (hint: use anchor tag)
+    
+    thats it guys best of luck!
+    
+    
