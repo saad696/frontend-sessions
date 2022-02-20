@@ -1,0 +1,141 @@
+/* 
+SELECTORS
+
+1) # - id
+2) . - class
+3) p - direct element
+4) * - universal selector
+*/
+
+/* 
+    TYPES OF POSITIONING
+    - static
+    - relative
+    - fixed
+    - sticky
+    - absolute
+*/
+
+/* 
+    CSS MEASURING UNITS
+    - px - pixels (default);
+    - rem - 1 rem = 16px
+    - % - percentage  (this is used to define reponsive sizing)
+    - vh - view height
+    - vw - view width
+*/
+
+/* css selectors example starts */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 2rem;
+}
+
+#text-container {
+  padding: 1rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: monospace;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul > li.red-text {
+  color: red;
+}
+
+/* css selector example ends */
+
+/* css postion style starts */
+
+.position-div {
+  background-color: green;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 2rem;
+  width: 450px;
+  height: 100px;
+}
+
+/* style for static */
+
+.position-div > p.static {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+/* style for fixed */
+
+.position-div.fixed {
+  position: fixed;
+  right: 0px;
+  top: 0;
+}
+
+/* style for sticky */
+
+.position-div.sticky {
+  position: sticky;
+  top: 0;
+}
+
+/* style for absolute */
+
+.position-div.absolute {
+  position: relative;
+}
+.position-div.absolute > p.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* css position style ends  */
+
+/* css display examples starts*/
+.display-eg div {
+  background-color: aquamarine;
+  padding: 2rem 4rem;
+  margin: 10px 0;
+  border: 2px solid green;
+  font-size: 1rem;
+}
+
+.display-eg div > .text-red {
+  color: red;
+}
+
+/* inline style */
+.display-eg div > .inline {
+  display: inline;
+}
+/* block style */
+.display-eg div > .block {
+  display: block;
+}
+/* none style  */
+.display-eg div > .hidden {
+  display: none;
+}
+
+/* css display examples end*/
